@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://use.fontawesome.com/926fe18a63.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script>
+      $(function(){
+        $(".headC").click(function(){
+          $(".headB").slideToggle();
+        });
+      });
+    </script>
+    <title>portfolio</title>
+  </head>
+<body>
+  <header>
+      <div class="container">
+      <a href="/" class="headA"><span class="name">ABOUT</span></a>
+      <nav class="NavMenu">
+        <ul>
+          <li><a href="/">TOP</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="skill.html">SKILL</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="Toggle">
+        <span class="toggle-span"></span>
+        <span></span>
+        <span></span>
+      </div>
+  </header>
+    <section class="aboutConA">
+      <div class="container">
+        <div class="aboutMain">
+          <video autoplay>
+            <source src="img/about.mp4">
+          </video>
+        </div>
+      </div>
+  </section>
+
+  <section class="aboutConsub">
+    <div class="container">
+      <div class="aboutMain">
+        <div class="textAnimation">My name is yusuke sasaki</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="aboutConB">
+    <div class="container">
+      <ul class="contents">
+        <li class="animationTarget">
+          <img src="img/about1.png" alt="">
+          <div class="contentsText">
+            <h2>Profile</h2>
+            <p>
+              name: 佐々木雄亮<br>
+              from: 北海道出身<br>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="aboutConC">
+    <div class="container">
+      <div class="photo"></div>
+      <div class="text">
+        <h2>History</h2>
+        <p>プログラミングスクルに通い、Rubyを中心に学習しました。<br>学習ではRailsを使いアプリケーション開発
+          行いました。私は、フロントエンジニアを目指しているため<br>現在はHTML.CSSやJavaScriptの学習をしています。<br>
+          UIやUXの技術の向上、見ている人が惹かれるコンポーネントを作り<br>SEOやマーケティングの部分の強化し
+          人が集まるサイトを作れるようになりたいと思っております。
+        </p>
+      </div>
+    </div>
+  </section>
+  <script src="js/scrip.js"></script>
+</body>
+</html>

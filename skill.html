@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  <script src="https://use.fontawesome.com/926fe18a63.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script>
+    $(function(){
+      $(".headC").click(function(){
+        $(".headB").slideToggle();
+      });
+    });
+  </script>
+  <title>portfolio</title>
+</head>
+<body>
+  <header>
+      <div class="container">
+      <a href="/" class="headA"><span class="name">WORK</span></a>
+      <nav class="NavMenu">
+        <ul>
+          <li><a href="/">TOP</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="skill.html">SKILL</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="Toggle">
+        <span class="toggle-span" ></span>
+        <span></span>
+        <span></span>
+      </div>
+  </header>
+  <section class="skillconB">
+    <div class="container">
+      <div class="skillMain">
+        <video autoplay>
+          <source src="img/skillmove.mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section class="skillconA">
+    <div class="container">
+      <div class="skillMove">
+        <iframe src="./iframe.html">
+        この部分はインラインフレームを使用してます。
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="skillconC">
+    <div class="container">
+      <div class="photo"></div>
+      <div class="text">
+        <h2>Study</h2>
+        <p>
+          上記のスマホが流れているものが作品になります。
+          タッチの上ご確認お願いします。
+        </p>
+    </div>
+  </section>
+  <script src="js/scrip.js"></script>
+</body>
+</html>

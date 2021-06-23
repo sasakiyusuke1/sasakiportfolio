@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  <script src="https://use.fontawesome.com/926fe18a63.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script>
+    $(function(){
+      $(".headC").click(function(){
+        $(".headB").slideToggle();
+      });
+    });
+  </script>
+  <title>portfolio</title>
+</head>
+<body>
+  <header>
+      <div class="container">
+      <a href="/" class="headA"><span class="name">CONTACT</span></a>
+      <nav class="NavMenu">
+        <ul>
+          <li><a href="/">TOP</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="skill.html">SKILL</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="Toggle">
+        <span class="toggle-span"></span>
+        <span></span>
+        <span></span>
+      </div>
+  </header>
+  <section class="contactConB">
+    <div class="container">
+      <div class="contactMain">
+        <video autoplay>
+          <source src="img/contactmove.mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section class="contactConA">
+    <div class="container">
+      <form>      
+        <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <input type="submit" value="SUBMIT"/>
+      </form>
+    </div>
+  </section>
+  <script src="js/scrip.js"></script>
+</body>
+</html>
